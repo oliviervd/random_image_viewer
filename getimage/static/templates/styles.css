@@ -17,6 +17,16 @@ h2 {
     clear:both
 }
 
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .graphbox {
     clear:both;
     width: 100%;
